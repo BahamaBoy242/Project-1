@@ -1,0 +1,163 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
+
+  (paper "A4")
+
+  (title_block
+    (title "DF_ESC_rev01_1")
+    (date "2025-01-25")
+    (rev "01")
+    (company "Trendsology")
+    (comment 4 "R.Sweeting")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "${TITLE}" (at 89.916 34.417 0)
+    (effects (font (face "Times New Roman") (size 9.27 9.27) (thickness 1.854) bold) (justify left bottom))
+    (uuid 0c66cea1-b64b-4186-8941-3ba020d844dd)
+  )
+
+  (sheet (at 128.905 52.578) (size 30.861 28.321) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3707a9a9-5d2f-4d94-977c-768d01ea148d)
+    (property "Sheetname" "BLOCK DIAGRAM" (at 128.905 51.8664 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Block Diagram.kicad_sch" (at 128.905 81.4836 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "DF_ESC"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 146.05 99.568) (size 26.162 25.654) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 508d5f07-b831-4672-93fa-80074be3a69e)
+    (property "Sheetname" "CAN" (at 146.05 98.8564 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "CAN.kicad_sch" (at 146.05 125.8066 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "DF_ESC"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 176.022 99.949) (size 26.162 25.527) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 591f6d09-3b61-4178-9052-4dc6964f36c1)
+    (property "Sheetname" "Filters" (at 176.022 99.2374 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Filters.kicad_sch" (at 176.022 126.0606 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "DF_ESC"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 114.046 134.874) (size 29.845 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 79e4b4de-09f2-4a5c-8485-ecc835955860)
+    (property "Sheetname" "Mech" (at 114.046 134.1624 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Mech.kicad_sch" (at 114.046 155.7786 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "DF_ESC"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "9"))
+      )
+    )
+  )
+
+  (sheet (at 85.344 99.187) (size 26.416 25.781) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7d060fa9-2cfc-44da-bd85-18de38f9a574)
+    (property "Sheetname" "MOSFET DRIVER" (at 85.344 98.4754 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MOSFET DRIVER.kicad_sch" (at 85.344 125.5526 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "DF_ESC"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 54.991 99.314) (size 26.67 25.654) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid cd90a652-8620-4e76-acdc-266792e1c44f)
+    (property "Sheetname" "MCU" (at 54.991 98.6024 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU.kicad_sch" (at 54.991 125.5526 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "DF_ESC"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 97.282 52.451) (size 28.067 28.194) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d11b8d90-7661-4599-9544-fc79a55a4e9c)
+    (property "Sheetname" "OVERVIEW" (at 97.282 51.7394 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "OVERVIEW.kicad_sch" (at 97.282 81.2296 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "DF_ESC"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 115.443 99.187) (size 26.289 25.781) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid dc9638c9-3b8c-4042-9f30-88caa4c08bb3)
+    (property "Sheetname" "MOSFETs" (at 115.443 98.4754 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MOSFETs.kicad_sch" (at 115.443 125.5526 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "DF_ESC"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
